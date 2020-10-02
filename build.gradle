@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.getkhaki'
+group 'com.getkhaki.api'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
